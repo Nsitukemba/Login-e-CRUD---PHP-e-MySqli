@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registar Usuários</title>
+</head>
+		<body>
+			<form method="POST" action="acaoUsuarios.php">
+				<label>Nome de Usuário</label>
+				<input type="text" name="txtNome"><br>
+				<label>Senha de Acesso</label>
+				<input type="password" name="txtSenha"><br>
+				<label>Nivel de Acesso</label>
+				<select name="txtNivel">
+					<option value="Administrador">Administrador</option>
+					<option value="Cliente">Cliente</option>
+					<option value="Outro">Outro</option>
+				</select>
+				<input type="submit" name="btnCadatrar" value="Registrar Usuário">
+			</form>
+		</body>
+</html>
